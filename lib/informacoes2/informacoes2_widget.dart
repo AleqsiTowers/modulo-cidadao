@@ -75,7 +75,7 @@ class _Informacoes2WidgetState extends State<Informacoes2Widget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                   child: Text(
-                    'INFORMAÇÕES',
+                    'Informações',
                     style: FlutterFlowTheme.of(context).title2.override(
                           fontFamily: 'Poppins',
                           color: Colors.white,

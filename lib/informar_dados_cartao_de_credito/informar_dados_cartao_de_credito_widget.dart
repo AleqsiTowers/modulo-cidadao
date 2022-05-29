@@ -97,7 +97,7 @@ class _InformarDadosCartaoDeCreditoWidgetState
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                   child: Text(
-                    'COMPRAR TICKET',
+                    'Comprar  Ticket',
                     style: FlutterFlowTheme.of(context).title2.override(
                           fontFamily: 'Poppins',
                           color: Colors.white,
@@ -151,12 +151,6 @@ class _InformarDadosCartaoDeCreditoWidgetState
                     Duration(milliseconds: 2000),
                     () => setState(() {}),
                   ),
-                  onFieldSubmitted: (_) async {
-                    if (formKey3.currentState == null ||
-                        !formKey3.currentState.validate()) {
-                      return;
-                    }
-                  },
                   autofocus: true,
                   obscureText: false,
                   decoration: InputDecoration(
@@ -201,12 +195,6 @@ class _InformarDadosCartaoDeCreditoWidgetState
                     Duration(milliseconds: 2000),
                     () => setState(() {}),
                   ),
-                  onFieldSubmitted: (_) async {
-                    if (formKey2.currentState == null ||
-                        !formKey2.currentState.validate()) {
-                      return;
-                    }
-                  },
                   autofocus: true,
                   obscureText: false,
                   decoration: InputDecoration(
@@ -251,12 +239,6 @@ class _InformarDadosCartaoDeCreditoWidgetState
                     Duration(milliseconds: 2000),
                     () => setState(() {}),
                   ),
-                  onFieldSubmitted: (_) async {
-                    if (formKey1.currentState == null ||
-                        !formKey1.currentState.validate()) {
-                      return;
-                    }
-                  },
                   autofocus: true,
                   obscureText: false,
                   decoration: InputDecoration(
@@ -301,12 +283,6 @@ class _InformarDadosCartaoDeCreditoWidgetState
                     Duration(milliseconds: 2000),
                     () => setState(() {}),
                   ),
-                  onFieldSubmitted: (_) async {
-                    if (formKey4.currentState == null ||
-                        !formKey4.currentState.validate()) {
-                      return;
-                    }
-                  },
                   autofocus: true,
                   obscureText: false,
                   decoration: InputDecoration(
@@ -337,26 +313,8 @@ class _InformarDadosCartaoDeCreditoWidgetState
               ),
               Divider(),
               FFButtonWidget(
-                onPressed: () async {
-                  if (formKey3.currentState == null ||
-                      !formKey3.currentState.validate()) {
-                    return;
-                  }
-
-                  if (formKey2.currentState == null ||
-                      !formKey2.currentState.validate()) {
-                    return;
-                  }
-
-                  if (formKey1.currentState == null ||
-                      !formKey1.currentState.validate()) {
-                    return;
-                  }
-
-                  if (formKey4.currentState == null ||
-                      !formKey4.currentState.validate()) {
-                    return;
-                  }
+                onPressed: () {
+                  print('Button pressed ...');
                 },
                 text: 'Avançar',
                 options: FFButtonOptions(

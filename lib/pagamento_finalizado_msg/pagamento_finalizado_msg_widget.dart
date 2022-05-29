@@ -77,7 +77,7 @@ class _PagamentoFinalizadoMsgWidgetState
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                   child: Text(
-                    'COMPRA DE TICKET FINALIZADA',
+                    'Compra de Ticket Finalizada',
                     style: FlutterFlowTheme.of(context).title2.override(
                           fontFamily: 'Poppins',
                           color: Colors.white,

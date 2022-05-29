@@ -13,3 +13,13 @@ export 'pagamento_finalizado_msg/pagamento_finalizado_msg_widget.dart'
     show PagamentoFinalizadoMsgWidget;
 export 'tela_erro_no_pagamento/tela_erro_no_pagamento_widget.dart'
     show TelaErroNoPagamentoWidget;
+export 'renovar_ticket_tempo_de_estadia/renovar_ticket_tempo_de_estadia_widget.dart'
+    show RenovarTicketTempoDeEstadiaWidget;
+export 'renovar_ticket_alerta10_min/renovar_ticket_alerta10_min_widget.dart'
+    show RenovarTicketAlerta10MinWidget;
+export 'renovar_ticket_alerta5_min/renovar_ticket_alerta5_min_widget.dart'
+    show RenovarTicketAlerta5MinWidget;
+export 'renovar_ticket_erro_ticket_inexistente/renovar_ticket_erro_ticket_inexistente_widget.dart'
+    show RenovarTicketErroTicketInexistenteWidget;
+export 'comprar_ticket_q_r_code_p_i_x/comprar_ticket_q_r_code_p_i_x_widget.dart'
+    show ComprarTicketQRCodePIXWidget;

@@ -89,7 +89,7 @@ class _InformarCPFePlacaWidgetState extends State<InformarCPFePlacaWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                   child: Text(
-                    'COMPRAR TICKET',
+                    'Comprar Ticket',
                     style: FlutterFlowTheme.of(context).title2.override(
                           fontFamily: 'Poppins',
                           color: Colors.white,
@@ -147,12 +147,6 @@ class _InformarCPFePlacaWidgetState extends State<InformarCPFePlacaWidget> {
                     Duration(milliseconds: 2000),
                     () => setState(() {}),
                   ),
-                  onFieldSubmitted: (_) async {
-                    if (formKey1.currentState == null ||
-                        !formKey1.currentState.validate()) {
-                      return;
-                    }
-                  },
                   autofocus: true,
                   obscureText: false,
                   decoration: InputDecoration(
@@ -203,12 +197,6 @@ class _InformarCPFePlacaWidgetState extends State<InformarCPFePlacaWidget> {
                     Duration(milliseconds: 2000),
                     () => setState(() {}),
                   ),
-                  onFieldSubmitted: (_) async {
-                    if (formKey2.currentState == null ||
-                        !formKey2.currentState.validate()) {
-                      return;
-                    }
-                  },
                   autofocus: true,
                   obscureText: false,
                   decoration: InputDecoration(
@@ -241,16 +229,8 @@ class _InformarCPFePlacaWidgetState extends State<InformarCPFePlacaWidget> {
               ),
               Divider(),
               FFButtonWidget(
-                onPressed: () async {
-                  if (formKey1.currentState == null ||
-                      !formKey1.currentState.validate()) {
-                    return;
-                  }
-
-                  if (formKey2.currentState == null ||
-                      !formKey2.currentState.validate()) {
-                    return;
-                  }
+                onPressed: () {
+                  print('BTNAvancar pressed ...');
                 },
                 text: 'Avançar',
                 options: FFButtonOptions(

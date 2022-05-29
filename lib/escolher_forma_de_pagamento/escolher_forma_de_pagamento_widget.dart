@@ -79,7 +79,7 @@ class _EscolherFormaDePagamentoWidgetState
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                   child: Text(
-                    'COMPRAR TICKET',
+                    'Comprar Ticket',
                     style: FlutterFlowTheme.of(context).title2.override(
                           fontFamily: 'Poppins',
                           color: Colors.white,

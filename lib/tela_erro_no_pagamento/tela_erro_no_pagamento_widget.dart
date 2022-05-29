@@ -77,7 +77,7 @@ class _TelaErroNoPagamentoWidgetState extends State<TelaErroNoPagamentoWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                   child: Text(
-                    'ERRO NA COMPRA DO TICKET',
+                    'Erro na compra do TIcket',
                     style: FlutterFlowTheme.of(context).title2.override(
                           fontFamily: 'Poppins',
                           color: Colors.white,
